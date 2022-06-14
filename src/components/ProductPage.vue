@@ -227,7 +227,7 @@ div.row, div.counter-row{
   -webkit-text-stroke: 2px;
   font-size: 1.1rem;
   position: absolute;
-  top: 40%;
+  top: 45%;
   z-index: 5;
 }
 
