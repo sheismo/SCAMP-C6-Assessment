@@ -22,3 +22,8 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Live Project Link
+```
+https://github.com/Scamp-C6-Assessment
+```
