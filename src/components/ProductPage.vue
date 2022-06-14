@@ -97,14 +97,14 @@ export default {
       const path = image.src
       const start = path.indexOf('image')
       const end = start + 5
-      console.log(image, path, start, end)
+      // console.log(image, path, start, end)
       const current = path.charAt(end)
       if (parseInt(current) === 4) {
         next = 0
       } else {
         next = parseInt(current) + 1
       }
-      console.log(current, next)
+      // console.log(current, next)
       image.src = this.mobileImages[next].src
     },
     prev () {
@@ -119,7 +119,7 @@ export default {
       } else {
         prev = parseInt(current) - 1
       }
-      console.log(current, prev)
+      // console.log(current, prev)
       image.src = this.mobileImages[prev].src
     }
   },
